@@ -1,4 +1,4 @@
-*{
+/* *{
   height: 92px;
   width: 375px;
   left: 0px;
@@ -8,7 +8,7 @@
 .header {
   background-color: #3c3a39; 
 }
-
+ 
 .tool_bar {
   display: flex;
   height: 48px;
@@ -77,9 +77,4 @@
     font-size: 16px;
     line-height: 24px;
     color: #ffffff;
-}
-.list_img {
-  list-style-type: none;
-  display: flex;
-  align-items: baseline;
-  margin-bottom: 292px;
+} */
