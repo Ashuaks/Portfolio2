@@ -1,12 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello-Microverse
+# Portfolio2
 
-> Description the project
-I set up a Hello world repository
-I intall linters and other files
-i created a .github/workplace folder
-I added h1 tag with Hello World in the html file which is style 
+I set up a new repository for the Mobile-version project.
+I prepareD it for development using best practices: Linters, .gitignore and github
+I also use created a new branch called Mobile-version in which all commits are done
+I build the first sections of the  second template of figma.
 
 ## Built With
 - htlm
