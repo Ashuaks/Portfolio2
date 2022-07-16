@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #3c3a39;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  height: 40px;
+}
+
+.name {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.tool_bar {
+  color: #acb7c3;
+  display: flex;
+  margin-left: 5px;
+}
+
+.middle_area {
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-color: #1c1a19;
+  background-position: bottom right;
+  padding: 12px 24px;
+}
+
+.abt_me {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 460;
+  font-size: 63px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin-top: 100px;
+}
+
+.software_dev {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+  margin-top: 20px;
+}
+
+.headline {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  margin-top: 20px;
+  width: 75vw;
+}
+
+.list_img {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  list-style-type: none;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
