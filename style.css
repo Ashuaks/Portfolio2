@@ -80,10 +80,9 @@
   margin-bottom: 80px;
 }
 .recent_works {
-  background-color: #e5e5e5;
-  padding-left: 12px;
+  background-color: #ffffff;
+  padding-left: 12px 12px;
 }
-
 .works_mrks {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
@@ -92,12 +91,15 @@
   color: #1C1A19;
   display: flex;
   padding-top: 100px;
-  
+  border-image-width: 500px;
+}
+ 
+hr {
+  margin-top: 50px;
 }
 
 .recent_back_image {
-  width: 327px;
-  height: 237px;
+  width: 500px;
   padding-top: 100px;
 }
 
@@ -119,43 +121,306 @@
   font-size: 16px;
   line-height: 24px;
   color: #091E42;
+  margin-bottom: 5px;
 }
 
 .recent_works_list {
+  display: flex;
   list-style-type: none;
-  padding-top: 5px;
-  float: inline-end;
+  width: 300px;
+  justify-content: space-between;
+  margin: 15px 12px;
+
+
 }
 
 .list_c {
-  padding-left: 20px;
-  padding-right: 20px;
+  border: 1px solid #8993a4;
+  padding: 5px;
+ 
 }
-
+  
 .list_h {
-  padding-left: 20px;
-  padding-right: 20px;
+  border: 1px solid #8993a4;
 }
 
 .list_b {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.list_r {
-  box-sizing: border-box;
-  padding-left: 20px;
-  padding-right: 20px;
+  border: 1px solid #8993a4;;
 }
 
+.list_r {
+  border: 1px solid #8993a4;
+}
+ 
 .button {
-  background-image:  url("images/Rectangle\ 56\ \(1\).png");
   background-color: #ff6b00;
   background-repeat: no-repeat;
   background: size 50px;
-  text-decoration-color: #acb7c3;
-  font-family: 'Inter';
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 80;
   font-size: 20px;
   line-height: 25px;
+  border: none;
+  margin-top: 15px;
+}
+
+.prof_arts {
+  background-image: url("images/Img\ Placeholder\ \(1\).png");
+  background-repeat: no-repeat;
+  background-color:#e5e5e5;
+}
+
+.heading {
+  font-family:'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+  padding-top: 70px;
+  padding-bottom: 15px;
+}
+
+.para {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+
+.languages {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 200px;
+  padding: 10px 12px 12px 10px;
+}
+  
+.lang_ht {
+  border: 1px solid violet;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+
+.lang_bo {
+  border: 1px solid violet;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.lang_ru {
+  border: 1px solid violet;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.button {
+  background-color: #ff6b00;
+  background-repeat: no-repeat;
+  background: size 50px;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 80;
+  font-size: 20px;
+  line-height: 25px;
+  border: none;
+  margin-top: 15px;
+  width: 700;
+}
+.prof_arts {
+  background-image: url("images/Img\ Placeholder\ \(1\).png");
+  background-repeat: no-repeat;
+  background-color:#e5e5e5;
+}
+
+.heading {
+  font-family:'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+  padding-top: 70px;
+  padding-bottom: 15px;
+}
+
+.para {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+
+.languages {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 200px;
+  padding: 10px 12px 12px 10px;
+}
+  
+.lang_ht {
+  border: 1px solid violet;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+
+.lang_bo {
+  border: 1px solid violet;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.lang_ru {
+  border: 1px solid violet;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.button {
+  background-color: #ff6b00;
+  background-repeat: no-repeat;
+  background: size 50px;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 80;
+  font-size: 20px;
+  line-height: 25px;
+  border: none;
+  margin-top: 15px;
+  width: 700;
+}
+.prof_arts {
+  background-image: url("images/Img\ Placeholder\ \(1\).png");
+  background-repeat: no-repeat;
+  background-color:#e5e5e5;
+}
+
+.heading {
+  font-family:'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+  padding-top: 70px;
+  padding-bottom: 15px;
+}
+
+.para {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+
+.languages {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 200px;
+  padding: 10px 12px 12px 10px;
+}
+  
+.lang_ht {
+  border: 1px solid violet;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.lang_bo {
+  border: 1px solid violet;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.lang_ru {
+  border: 1px solid violet;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.button {
+  background-color: #ff6b00;
+  background-repeat: no-repeat;
+  background: size 50px;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 80;
+  font-size: 20px;
+  line-height: 25px;
+  border: none;
+  margin-top: 15px;
+  width: 700;
+}
+.prof_arts {
+  background-image: url("images/Img\ Placeholder\ \(1\).png");
+  background-repeat: no-repeat;
+  background-color:#e5e5e5;
+}
+.heading {
+  font-family:'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+  padding-top: 70px;
+  padding-bottom: 15px;
+}
+
+.para {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+
+.languages {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 200px;
+  padding: 10px 12px 12px 10px;
+}
+  
+.lang_ht {
+  border: 1px solid violet;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+
+.lang_bo {
+  border: 1px solid violet;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.lang_ru {
+  border: 1px solid violet;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.button {
+  background-color: #ff6b00;
+  background-repeat: no-repeat;
+  background: size 50px;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 80;
+  font-size: 20px;
+  line-height: 25px;
+  border: none;
+  margin-top: 15px;
+  width: 700;
 }
